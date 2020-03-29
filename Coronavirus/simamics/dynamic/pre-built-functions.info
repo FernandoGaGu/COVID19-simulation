@@ -1,0 +1,8 @@
+Examples of pre built functions
+---------------------------------------
+
+lambda size, mov, space: int(pow(size, (1 / 2 * exp(mov))) / (sqrt(space) * 2))
+
+lambda size, mov, space: int(pow(size, (mov * exp(1/2))) / (sqrt(space) * 2))
+
+lambda size, mov, space: int((size*(pow((2*mov), 2)))/space)
